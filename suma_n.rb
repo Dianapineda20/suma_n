@@ -1,7 +1,9 @@
+max= ARGV[0].to_i
+suma= 0
 i = 0
-suma = 0
-while i < 100
-i += 1
-suma += i
+
+while i < max
+    i += 1
+    suma += i
 end
 puts suma
